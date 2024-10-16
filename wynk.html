@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wynk Music</title>
+</head>
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+header {
+    background-color: #282c34;
+    color: white;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+.cta-button {
+    background-color: #ffcc00;
+    padding: 1rem 2rem;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.featured {
+    padding: 2rem;
+    text-align: center;
+}
+
+.featured h2 {
+    margin-bottom: 1.5rem;
+}
+
+.playlist {
+    background-color: #ffffff;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    padding: 1rem;
+    margin: 1rem;
+    display: inline-block;
+    width: calc(30% - 2rem);
+}
+
+footer {
+    background-color: #282c34;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.img{
+    max-width: 100%;
+    height: auto;
+    width: 50px;
+}
+</style>
+<body>
+    
+    <header>
+        <div class="logo">
+        </div>
+        <nav>
+            <img src="wynk.jpeg" alt="">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Explore</a></li>
+                <li><a href="">Library</a></li>
+                <li><a href="">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Wynk Music</h1>
+            <p>Your one-stop destination for all your favorite tunes.</p>
+            <a href="" class="cta-button">Explore Now</a>
+        </section>
+
+        <section class="featured">
+            <h2>Featured Playlists</h2>
+            <div class="playlist">
+                <h3>Top Hits</h3>
+                <p>Listen to the latest chartbusters!</p>
+            </div>
+            <div class="playlist">
+                <h3>Chill Vibes</h3>
+                <p>Relax with soothing tunes.</p>
+            </div>
+            <div class="playlist">
+                <h3>Workout Mix</h3>
+                <p>Get pumped with high-energy tracks.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Wynk Music. All rights reserved.</p>
+    </footer>
+</body>
+</html>
